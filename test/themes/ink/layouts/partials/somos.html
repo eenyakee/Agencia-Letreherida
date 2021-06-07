@@ -1,0 +1,37 @@
+<section id="somos">
+
+    <div class="blob-wrapper">
+        <div class="blob-width">
+            <div id="blob-1" class="blob">
+                {{ readFile "static/blob-1.svg" | safeHTML }}
+            </div>
+        </div>
+    </div>
+
+
+    <div class="somos-wrapper content">
+        {{ $section := "somos" }} {{ range (where .Site.RegularPages.ByTitle "Section" $section ) }}
+        <h2 class="section-title"> {{ .Title }}</h2>
+
+        <div class="ascii ascii-home ascii-home-3">
+            {{ partial "ascii-home/ascii-3.html" . }}
+        </div>
+        <div class="somos-texto">
+
+            {{ .Content }}
+
+        </div>
+
+    </div>
+    {{ end }}
+    <div class="line line-7">
+        {{ readFile "static/line-7.svg" | safeHTML }}
+    </div>
+
+
+    </div>
+
+
+
+
+</section>

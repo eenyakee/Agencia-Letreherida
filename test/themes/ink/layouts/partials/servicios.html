@@ -1,0 +1,85 @@
+<section id="servicios">
+
+    <div class="line line-2">
+        {{ readFile "static/line-2.svg" | safeHTML }}
+    </div>
+    <div class="ascii ascii-home ascii-home-0">
+        {{ partial "ascii-home/ascii-0.html" . }}
+    </div>
+    <div class="servicios-wrap">
+
+        <div class="blob-wrapper">
+            <div class="blob-width">
+                <div id="blob-1" class="blob">
+                    {{ readFile "static/blob-1.svg" | safeHTML }}
+                </div>
+            </div>
+            <div class="blob-width">
+                <div id="blob-2" class="blob">
+                    {{ readFile "static/blob-1.svg" | safeHTML }}
+                </div>
+            </div>
+        </div>
+
+        <div class=" servicios-wrapper content">
+
+            <h2 class="section-title"> Servicios <span class="flechas">⟵ &nbsp;&nbsp; ⟶  </span></h2>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+
+                    {{ $section := "servicios" }}
+
+                    <!-- Slides -->
+                    {{ $.Scratch.Set "counter" 0 }} {{ range (where .Site.RegularPages.ByTitle "Section" $section ) }}
+                    <div class="swiper-slide servicios">
+                        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+                        <div class="h1 texto-slide texto-slide-1">
+                            {{ .Content }}
+                        </div>
+                        {{ $numero := string ($.Scratch.Get "counter") }} {{ $widget := (printf "%s%s" "ascii-servicios/ascii-" $numero ) }} {{ $partialurl := (printf $widget ".html" ) }}
+                        <div class="ascii-slide ascii ascii-slide-{{ $numero }}">
+                            {{ partial $widget . }}
+                        </div>
+                    </div>
+                    {{ end }}
+
+
+                </div>
+
+
+            </div>
+
+            <script>
+                var swiper = new Swiper(".swiper-container", {
+                    slidesPerView: 1,
+                    effect: 'fade',
+                    fadeEffect: {
+                        crossFade: true
+                    },
+
+                    autoplay: {
+                        delay: 4000,
+                    },
+
+                    loop: true
+
+
+                });
+            </script>
+
+        </div>
+
+    </div>
+
+    <div class="line line-3">
+        {{ readFile "static/line-3.svg" | safeHTML }}
+    </div>
+
+    <div class="ascii ascii-home ascii-home-1">
+        {{ partial "ascii-home/ascii-1.html" . }}
+    </div>
+
+</section>

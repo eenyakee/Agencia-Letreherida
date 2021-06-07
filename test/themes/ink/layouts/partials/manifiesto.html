@@ -1,0 +1,38 @@
+<section id="manifiesto">
+
+
+
+
+
+
+    {{ $section := "manifiesto" }} {{ range (where .Site.RegularPages.ByTitle "Section" $section ) }}
+    <div class="manifiesto-wrap content">
+        <h2 class="section-title">Mananifiesto</h2>
+        <div class="blob-wrapper">
+            <div class="blob-width">
+                <div id="blob-8" class="blob">
+                    {{ readFile "static/blob-1_1.svg" | safeHTML }}
+                </div>
+            </div>
+
+
+        </div>
+        <div class="manifiesto-text">
+            {{ .Content }}
+        </div>
+        <div class="line line-5">
+            {{ readFile "static/line-5.svg" | safeHTML }}
+        </div>
+
+    </div>
+
+    {{ end }}
+
+    <div class="line line-6">
+        {{ readFile "static/line-6.svg" | safeHTML }}
+
+    </div>
+
+
+
+</section>

@@ -1,0 +1,9 @@
+<nav class="nav-fixed content" data-aos="fade-up" data-aos-anchor-placement="top-top">
+    <ul>
+        {{ range .Site.Menus.main }}
+        <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</nav>

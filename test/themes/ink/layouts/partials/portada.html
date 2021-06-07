@@ -1,0 +1,47 @@
+<section id="portada" class="portada-wrap">
+    <div class="blob-wrapper">
+        <div class="blob-width">
+            <div id="blob-1" class="blob">
+                {{ readFile "static/blob-1.svg" | safeHTML }}
+            </div>
+        </div>
+        <div class="blob-width">
+            <div id="blob-2" class="blob">
+                {{ readFile "static/blob-1_1.svg" | safeHTML }}
+            </div>
+        </div>
+    </div>
+
+    <div class="line line-1">
+        {{ readFile "static/line-1.svg" | safeHTML }}
+    </div>
+
+    <div class="content content-portada" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="500">
+        <div class="copy-centro-portada">
+            <h1 class="claim-1">{{ .Params.portadaClaim1 }}</h1>
+            <h1 class="claim-2">{{ .Params.portadaClaim2 }}</h1>
+            <h1 class="claim-3">{{ .Params.portadaClaim3 }}</h1>
+        </div>
+        <h1 class="portada-agencia">{{ .Params.portadaAgencia }}</h1>
+
+        <div class="portada-bottom">
+            <nav class="nav">
+                <ul>
+                    {{ range .Site.Menus.main }}
+                    <li>
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </nav>
+            <div class="contacto">
+                <p>{{ .Params.portadaContactoTlf }} / {{ .Params.portadaContactoTlf2 }}</p>
+                <p>{{ .Params.contactoEmail }}</p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
