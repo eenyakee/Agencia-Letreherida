@@ -1,6 +1,7 @@
 ---
 
 Title: "Servicios 2"
-weight: 1
+weight: 2
 ---
-2 Creamos contenido para proyectos, campañas, empresas, organizaciones, ideas y conceptos.
+En cuatro\
+idiomas.

@@ -13,17 +13,21 @@
 
     <div class="trabajos-wrapper content">
         <h2 class="section-title"> Case study</h2>
-        {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }} {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+        {{ $section := "posts" }}
+
+        <!-- Slides -->
+        {{ $.Scratch.Set "counter" 0 }}
+
         <div class="trabajos-content">
-            {{ range $paginator.Pages }} {{if eq .Params.ordenPost "1"}}
+            {{ range (where .Site.RegularPages.ByWeight "Section" $section ) }}{{if eq .Params.ordenPost "1"}}
             <input class="radio" id="input-{{ .Params.ordenPost }}" name="group" type="radio" checked> {{else}}
             <input class="radio" id="input-{{ .Params.ordenPost }}" name="group" type="radio"> {{end}} {{end}}
             <div class="tabs">
-                {{ range $paginator.Pages }}
+                {{ range (where .Site.RegularPages.ByWeight "Section" $section ) }}
                 <label class="tab" id="tab-{{ .Params.ordenPost }}" for="input-{{ .Params.ordenPost }}"> {{ .Title }}</label> {{end}}
             </div>
             <div class="panels">
-                {{ range $paginator.Pages }}
+                {{ range (where .Site.RegularPages.ByWeight "Section" $section ) }}
                 <div class="panel" id="panel-{{ .Params.ordenPost }}">
                     <div class="panel-title h1">{{ .Title }}</div>
                     <div class="panel-subtitle"><span>{{ .Date.Format "January 2006" }}, </span>Un subtitulo</div>
@@ -91,6 +95,7 @@
                             <script>
                                 var swiper = new Swiper(".swiper-container-2", {
                                     slidesPerView: 1,
+                                    loop: false
                                 });
                             </script>
                             {{ else }}
@@ -107,9 +112,12 @@
         </div>
 
     </div>
+    <div>
 
-    <div class="ascii ascii-home ascii-home-4">
-        {{ partial "ascii-home/ascii-4.html" . }}
-    </div>
+        <div data-aos="fade-up" data-aos-duration="3000">
+            <div class="ascii ascii-home ascii-home-4">
+                {{ partial "ascii-home/ascii-4.html" . }}
+            </div>
+        </div>
 
 </section>

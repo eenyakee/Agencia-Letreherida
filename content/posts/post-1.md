@@ -1,10 +1,10 @@
 ---
 title: "Cliente 1"
-date: 2018
+date: 2018-03-18T12:13:30+05:30
 ordenPost: "1"
-subtitulo: "Lorem"
-destacado1: "Lorem"
-destacado2:
+subtitulo: "Un destacado del copy más o menos largo"
+destacado1: "Un destacado del copy más o menos largo"
+destacado2: "Un destacado del copy más o menos largo"
 destacado3:
 destacado4:
 destacado5:

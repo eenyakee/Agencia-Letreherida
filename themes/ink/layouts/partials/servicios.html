@@ -23,7 +23,7 @@
 
         <div class=" servicios-wrapper content">
 
-            <h2 class="section-title"> Servicios <span class="flechas">⟵ &nbsp;&nbsp; ⟶  </span></h2>
+            <h2 class="section-title"> Servicios <span class="flechas d-none">⟵ &nbsp;&nbsp; ⟶  </span></h2>
             <!-- Slider main container -->
             <div class="swiper-container">
                 <!-- Additional required wrapper -->
@@ -33,13 +33,12 @@
                     {{ $section := "servicios" }}
 
                     <!-- Slides -->
-                    {{ $.Scratch.Set "counter" 0 }} {{ range (where .Site.RegularPages.ByTitle "Section" $section ) }}
+                    {{ $.Scratch.Set "counter" 0 }} {{ range (where .Site.RegularPages.ByWeight "Section" $section ) }}
                     <div class="swiper-slide servicios">
-                        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-                        <div class="h1 texto-slide texto-slide-1">
+                        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }} {{ $numero := string ($.Scratch.Get "counter") }} {{ $widget := (printf "%s%s" "ascii-servicios/ascii-" $numero ) }} {{ $partialurl := (printf $widget ".html" ) }}
+                        <div class="h1 texto-slide texto-slide-{{ $numero }}">
                             {{ .Content }}
                         </div>
-                        {{ $numero := string ($.Scratch.Get "counter") }} {{ $widget := (printf "%s%s" "ascii-servicios/ascii-" $numero ) }} {{ $partialurl := (printf $widget ".html" ) }}
                         <div class="ascii-slide ascii ascii-slide-{{ $numero }}">
                             {{ partial $widget . }}
                         </div>
@@ -48,7 +47,8 @@
 
 
                 </div>
-
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
 
             </div>
 
@@ -67,19 +67,39 @@
                     loop: true
 
 
+
+
                 });
+
+                function next() {
+                    if (data[swiper.realIndex + 1]) {
+                        swiper.slideNext(500)
+                    } else {
+                        swiper.slideToLoop(0)
+                    }
+                }
+
+                function prev() {
+                    if (data[swiper.realIndex - 1]) {
+                        swiper.slidePrev(500)
+                    } else {
+                        swiper.slideToLoop(data.length - 1)
+                    }
+                }
             </script>
 
         </div>
 
     </div>
 
+    <div class="ascii ascii-home ascii-home-2">
+        {{ partial "ascii-home/ascii-2.html" . }}
+    </div>
+
     <div class="line line-3">
         {{ readFile "static/line-3.svg" | safeHTML }}
     </div>
 
-    <div class="ascii ascii-home ascii-home-1">
-        {{ partial "ascii-home/ascii-1.html" . }}
-    </div>
+
 
 </section>

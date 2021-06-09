@@ -1,5 +1,6 @@
 <section id="clientes">
 
+
     <div class="blob-wrapper">
         <div class="blob-width">
             <div id="blob-1" class="blob">
@@ -8,14 +9,19 @@
         </div>
     </div>
 
+    <div class="ascii ascii-home ascii-home-6">
+        {{ partial "ascii-home/ascii-6.html" . }}
+    </div>
 
     <div class="clientes-wrapper content text-align-center">
         {{ $section := "clientes" }} {{ range (where .Site.RegularPages.ByTitle "Section" $section ) }}
+
         <h2 class="sections-title">{{ .Title }}</h2>
 
         <div class="clientes-list">
             {{ .Content }}
         </div>
         {{end}}
+
     </div>
 </section>

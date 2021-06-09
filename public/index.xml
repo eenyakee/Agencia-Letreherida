@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Letraherida</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Letraherida</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Sun, 18 Mar 2018 12:13:30 +0530</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Servicios 1</title>
+      <link>http://example.org/servicios/servicios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/servicios/servicios/</guid>
+      <description>(Solo)
+texto.</description>
+    </item>
+    
+    <item>
+      <title>Servicios 2</title>
+      <link>http://example.org/servicios/servicios2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/servicios/servicios2/</guid>
+      <description>En cuatro
+idiomas.</description>
+    </item>
+    
+    <item>
+      <title>Servicios 3</title>
+      <link>http://example.org/servicios/servicios3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/servicios/servicios3/</guid>
+      <description>Redactamos proyectos, campañas, empresas, organizaciones, ideas y conceptos.</description>
+    </item>
+    
+    <item>
+      <title>Servicios 1</title>
+      <link>http://example.org/servicios/servicios4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/servicios/servicios4/</guid>
+      <description>Contamos tu historia.</description>
+    </item>
+    
+    <item>
+      <title>Servicios 2</title>
+      <link>http://example.org/servicios/servicios5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/servicios/servicios5/</guid>
+      <description>Online y offline.</description>
+    </item>
+    
+    <item>
+      <title>Servicios 3</title>
+      <link>http://example.org/servicios/servicios6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/servicios/servicios6/</guid>
+      <description>Copywriting para RRSS, publicidad, webs y comunicación interna.</description>
+    </item>
+    
+    <item>
+      <title>Servicios 3</title>
+      <link>http://example.org/servicios/servicios7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/servicios/servicios7/</guid>
+      <description>Guiones para
+audiovisual.</description>
+    </item>
+    
+    <item>
+      <title>Cliente 1</title>
+      <link>http://example.org/posts/post-1/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:30 +0530</pubDate>
+      
+      <guid>http://example.org/posts/post-1/</guid>
+      <description>We spend our days filling in every available space, cramming in more tasks, responding to messages, checking social media and online sites, watching videos.
+We are afraid of empty space in our lives.
+The result is often a continual busyness, constant distraction and avoidance, lack of focus, lack of satisfaction with our lives.
+We run from silence. We run from the spaces between tasks and appointments. We run from solitude and stillness.</description>
+    </item>
+    
+    <item>
+      <title>Cliente 2</title>
+      <link>http://example.org/posts/post-2/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:30 +0530</pubDate>
+      
+      <guid>http://example.org/posts/post-2/</guid>
+      <description>We spend our days filling in every available space, cramming in more tasks, responding to messages, checking social media and online sites, watching videos.
+We are afraid of empty space in our lives.
+The result is often a continual busyness, constant distraction and avoidance, lack of focus, lack of satisfaction with our lives.
+We run from silence. We run from the spaces between tasks and appointments. We run from solitude and stillness.</description>
+    </item>
+    
+    <item>
+      <title>Cliente 3</title>
+      <link>http://example.org/posts/post-3/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:30 +0530</pubDate>
+      
+      <guid>http://example.org/posts/post-3/</guid>
+      <description>We spend our days filling in every available space, cramming in more tasks, responding to messages, checking social media and online sites, watching videos.
+We are afraid of empty space in our lives.
+The result is often a continual busyness, constant distraction and avoidance, lack of focus, lack of satisfaction with our lives.
+We run from silence. We run from the spaces between tasks and appointments. We run from solitude and stillness.</description>
+    </item>
+    
+    <item>
+      <title>Clientes</title>
+      <link>http://example.org/clientes/clientes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/clientes/clientes/</guid>
+      <description>Domestic Data Streamers, Naciones Unidas, Comité Olímpico Internacional - Olympic Broadcasting Services, UNICEF, Oxfam, Anna Lindh Foundation, Palau Robert y Generalitat de Catalunya, Ús Barcelona, Escuela Universitaria de Diseño e Ingeniería ELISAVA, Hospital de Sant Pau, Arrels, Western Digital, Telefónica, Beefeater, Campo Viejo, La Granja, APTO Skincare, BCN3D, Cisco, Codea Studio, Hey Studio, Etnia Barcelona, EITB, MTV España, Ramírez i Carrillo, Play&amp;amp;Type, Albert Romagosa Studio, Massimo Dutti, Uterqüe, Andrés Sardá, Kaiku, Barceló&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Manifiesto</title>
+      <link>http://example.org/manifiesto/manifiesto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/manifiesto/manifiesto/</guid>
+      <description>Estamos hechas de historias; ¿acaso hay algo más humano que tratar de encontrar un sentido a aquello que nos rodea? Pasamos nuestros días escuchando diferentes fuentes de información, viendo vídeos, leyendo online, consumiendo posts y publicidad y soñando con la próxima exposición que nos mueva. Vivimos envueltas en palabras, en textos y en guiones que, juntos, crean el relato de nuestra sociedad hoy. Qué decimos y cómo lo decimos es vital, tanto como la imagen y la utilidad de ese contenido.</description>
+    </item>
+    
+    <item>
+      <title>Somos</title>
+      <link>http://example.org/somos/somos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/somos/somos/</guid>
+      <description>Patricia Escalona
+Con una experiencia en el mundo editorial de más de 20 años, empecé a relacionarme con las letras profesionalmente en Ediciones B, y formé parte del lanzamiento de Suma de Letras-Punto de lectura. Tras un periodo en Nueva York trabajando en la editorial The New Press, volví a Barcelona y seguí con los libros hasta hoy en día. Actualmente sigo editando como freelance, (esto es el cuento de nunca acabar) , haciendo copy para publi y RRSS en diferentes idiomas, escribiendo libros, artículos y todo lo que me dejan e hilando historias en mi cabeza, cual Ariadna.</description>
+    </item>
+    
+  </channel>
+</rss>

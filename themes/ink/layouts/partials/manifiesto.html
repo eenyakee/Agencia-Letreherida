@@ -28,10 +28,16 @@
 
     {{ end }}
 
+    <div class="ascii ascii-home ascii-home-5">
+        {{ partial "ascii-home/ascii-5.html" . }}
+    </div>
+
     <div class="line line-6">
         {{ readFile "static/line-6.svg" | safeHTML }}
 
     </div>
+
+
 
 
 

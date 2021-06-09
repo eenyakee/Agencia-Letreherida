@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manifiestoes on Letraherida</title>
+    <link>http://example.org/manifiesto/</link>
+    <description>Recent content in Manifiestoes on Letraherida</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright><atom:link href="http://example.org/manifiesto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manifiesto</title>
+      <link>http://example.org/manifiesto/manifiesto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/manifiesto/manifiesto/</guid>
+      <description>Estamos hechas de historias; ¿acaso hay algo más humano que tratar de encontrar un sentido a aquello que nos rodea? Pasamos nuestros días escuchando diferentes fuentes de información, viendo vídeos, leyendo online, consumiendo posts y publicidad y soñando con la próxima exposición que nos mueva. Vivimos envueltas en palabras, en textos y en guiones que, juntos, crean el relato de nuestra sociedad hoy. Qué decimos y cómo lo decimos es vital, tanto como la imagen y la utilidad de ese contenido.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,6 @@
 ---
 title: "Cliente 2"
 date: 2018-03-18T12:13:30+05:30
-tags: [Space]
 ordenPost: "2"
 subtitulo: "Lorem"
 destacado1: "Lorem"

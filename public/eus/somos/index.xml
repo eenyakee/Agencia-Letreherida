@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Somos on Letraherida</title>
+    <link>http://example.org/eus/somos/</link>
+    <description>Recent content in Somos on Letraherida</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright><atom:link href="http://example.org/eus/somos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Somos</title>
+      <link>http://example.org/eus/somos/somos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/eus/somos/somos/</guid>
+      <description>Patricia Escalona
+Con una experiencia en el mundo editorial de más de 20 años, empecé a relacionarme con las letras profesionalmente en Ediciones B, y formé parte del lanzamiento de Suma de Letras-Punto de lectura. Tras un periodo en Nueva York trabajando en la editorial The New Press, volví a Barcelona y seguí con los libros hasta hoy en día. Actualmente sigo editando como freelance, (esto es el cuento de nunca acabar) , haciendo copy para publi y RRSS en diferentes idiomas, escribiendo libros, artículos y todo lo que me dejan e hilando historias en mi cabeza, cual Ariadna.</description>
+    </item>
+    
+  </channel>
+</rss>
