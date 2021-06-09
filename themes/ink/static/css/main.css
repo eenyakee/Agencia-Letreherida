@@ -224,8 +224,6 @@ section {
     overflow-y: visible;
 }
 
-.blob-wrapper svg {}
-
 .blob {
     width: 50vmax;
     animation: move 30s ease-in-out infinite;
@@ -787,8 +785,6 @@ section {
     top: 30%;
 }
 
-.ascii-slide pre {}
-
 @media (max-width: 1350px) {
     #servicios {
         min-height: 145vw;
@@ -1045,8 +1041,6 @@ section {
 
 /* MANIFIESTO */
 
-#manifiesto {}
-
 .manifiesto-text {
     width: 66vw;
 }
@@ -1068,8 +1062,6 @@ section {
 
 
 /* Somos */
-
-#somos {}
 
 .somos-wrapper {
     display: flex;
@@ -1101,8 +1093,6 @@ section {
 
 
 /* Clientlient */
-
-#clientes {}
 
 .clientes-list {
     text-align: center;
