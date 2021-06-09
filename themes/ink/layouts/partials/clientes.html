@@ -4,7 +4,7 @@
     <div class="blob-wrapper">
         <div class="blob-width">
             <div id="blob-1" class="blob">
-                {{ readFile "static/blob-1.svg" | safeHTML }}
+                {{ partial "blob-1.svg" . }}
             </div>
         </div>
     </div>
