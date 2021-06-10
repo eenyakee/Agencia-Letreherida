@@ -14,7 +14,7 @@ draft = true
 nombreDelCliente = "Nombre del cliente"
 ordenPost = "1"
 subtitulo = "Un destacado del copy más o menos largo"
-title = "Cliente 2 Es"
+title = "Para insertar uno nuevo duplicar post Es"
 
 +++
 We spend our days filling in every available space, cramming in more tasks, responding to messages, checking social media and online sites, watching videos.
