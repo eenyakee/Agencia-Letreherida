@@ -1,14 +1,19 @@
 ---
-title: "Cliente 2"
+title: "Cliente 1"
 date: 2018-03-18T12:13:30+05:30
-ordenPost: "2"
-subtitulo: "Lorem"
-destacado1: "Lorem"
-destacado2: "Lorem"
-destacado3: "Lorem"
-destacado4:
-destacado5:
-destacado6:
+ordenPost: "1"
+subtitulo: "Un destacado del copy más o menos largo"
+destacado1: "Un destacado del copy más o menos largo"
+destacado2: "Un destacado del copy más o menos largo"
+destacado3: ""
+destacado4: ""
+destacado5: ""
+destacado6: ""
+destacado7: ""
+destacado8: ""
+destacado9: ""
+destacado10: ""
+
 ---
 
 We spend our days filling in every available space, cramming in more tasks, responding to messages, checking social media and online sites, watching videos.
