@@ -1,0 +1,28 @@
+---
+label: Index
+hide_body: true
+fields:
+- type: text
+  name: portadaClaim1
+  label: portadaClaim1
+- type: text
+  name: portadaClaim2
+  label: portadaClaim2
+- type: text
+  name: portadaClaim3
+  label: portadaClaim3
+- type: text
+  name: portadaAgencia
+  label: portadaAgencia
+- type: text
+  name: portadaContactoTlf
+  label: portadaContactoTlf
+- type: text
+  name: portadaContactoTlf2
+  label: portadaContactoTlf2
+- type: text
+  name: contactoEmail
+  label: contactoEmail
+- type: boolean
+  name: seccionCaseStudy
+  label: seccionCaseStudy
