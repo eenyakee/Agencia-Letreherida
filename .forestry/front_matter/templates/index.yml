@@ -27,6 +27,7 @@ fields:
   name: seccionCaseStudy
   label: seccionCaseStudy
 pages:
+- content/_index.cat.md
 - content/_index.en.md
 - content/_index.es.md
 - content/_index.eus.md
