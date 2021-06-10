@@ -1,4 +1,6 @@
 ---
+title: "Cliente 1 Eus"
+nombreDelCliente: "Nombre del cliente"
 title: "Cliente 1"
 date: 2018-03-18T12:13:30+05:30
 ordenPost: "1"

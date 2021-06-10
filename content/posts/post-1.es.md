@@ -1,5 +1,6 @@
 ---
-title: "Cliente 1"
+title: "Cliente 1 Es"
+nombreDelCliente: "Nombre del cliente"
 date: 2018-03-18T12:13:30+05:30
 ordenPost: "1"
 subtitulo: "Un destacado del copy más o menos largo"

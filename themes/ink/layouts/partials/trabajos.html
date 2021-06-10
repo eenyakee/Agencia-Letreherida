@@ -24,12 +24,12 @@
             <input class="radio" id="input-{{ .Params.ordenPost }}" name="group" type="radio"> {{end}} {{end}}
             <div class="tabs">
                 {{ range (where .Site.RegularPages.ByWeight "Section" $section ) }}
-                <label class="tab" id="tab-{{ .Params.ordenPost }}" for="input-{{ .Params.ordenPost }}"> {{ .Title }}</label> {{end}}
+                <label class="tab" id="tab-{{ .Params.ordenPost }}" for="input-{{ .Params.ordenPost }}"> {{ .Params.nombreDelCliente }}</label> {{end}}
             </div>
             <div class="panels">
                 {{ range (where .Site.RegularPages.ByWeight "Section" $section ) }}
                 <div class="panel" id="panel-{{ .Params.ordenPost }}">
-                    <div class="panel-title h1">{{ .Title }}</div>
+                    <div class="panel-title h1">{{ .Params.nombreDelCliente }}</div>
                     <div class="panel-subtitle"><span>{{ .Date.Format "January 2006" }}, </span>Un subtitulo</div>
                     <div class="panel-content">
                         <div class="panel-right">
