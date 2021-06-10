@@ -7,6 +7,6 @@ portadaAgencia: "Agencia de redacción"
 portadaContactoTlf: "666666666"
 portadaContactoTlf2: "666666666"
 contactoEmail: "hola@agencialetraherida.com"
-seccionCaseStudy: false
+seccionCaseStudy: true
 
 ---
