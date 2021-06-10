@@ -26,3 +26,5 @@ fields:
 - type: boolean
   name: seccionCaseStudy
   label: seccionCaseStudy
+pages:
+- content/_index.eus.md
