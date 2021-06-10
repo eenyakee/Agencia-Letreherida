@@ -1,0 +1,46 @@
+---
+label: Nuevo Case study
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: ordenPost
+  label: ordenPost
+- type: text
+  name: subtitulo
+  label: subtitulo
+- type: text
+  name: destacado1
+  label: destacado1
+- type: text
+  name: destacado2
+  label: destacado2
+- type: text
+  name: destacado3
+  label: destacado3
+- type: text
+  name: destacado4
+  label: destacado4
+- type: text
+  name: destacado5
+  label: destacado5
+- type: text
+  name: destacado6
+  label: destacado6
+- type: text
+  name: destacado7
+  label: destacado7
+- type: text
+  name: destacado8
+  label: destacado8
+- type: text
+  name: destacado9
+  label: destacado9
+- type: text
+  name: destacado10
+  label: destacado10
