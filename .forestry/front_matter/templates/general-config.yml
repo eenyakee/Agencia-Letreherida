@@ -201,3 +201,5 @@ fields:
   - type: text
     name: tag
     label: tag
+pages:
+- config.toml

@@ -5,7 +5,7 @@ copyright = "© Copyright notice"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
-paginate = "10"
+paginate = 10
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 pygmentsstyle = "vs"
@@ -16,49 +16,41 @@ languageName = "Català"
 languageNameShort = "cat"
 weight = 3
 [[languages.cat.menu.main]]
-name = "Servicios"
+name = "Serveis"
 url = "#servicios"
 weight = 1
 [[languages.cat.menu.main]]
-name = "Manifiesto"
+name = "Manifest"
 url = "#manifiesto"
 weight = 2
 [[languages.cat.menu.main]]
-name = "Somos"
+name = "Som"
 url = "#somos"
 weight = 3
 [[languages.cat.menu.main]]
-name = "Clientes"
+name = "Clients"
 url = "#clientes"
 weight = 4
-[[languages.cat.menu.main]]
-name = "Case studies"
-url = "#trabajos"
-weight = 5
 [languages.en]
 languageName = "English"
 languageNameShort = "eng"
 weight = 2
 [[languages.en.menu.main]]
-name = "Servicios"
+name = "Services"
 url = "#servicios"
 weight = 1
 [[languages.en.menu.main]]
-name = "Manifiesto"
+name = "Manifest"
 url = "#manifiesto"
 weight = 2
 [[languages.en.menu.main]]
-name = "Somos"
+name = "We are"
 url = "#somos"
 weight = 3
 [[languages.en.menu.main]]
-name = "Clientes"
+name = "Clients"
 url = "#clientes"
 weight = 4
-[[languages.en.menu.main]]
-name = "Case studies"
-url = "#trabajos"
-weight = 5
 [languages.es]
 languageName = "Español"
 languageNameShort = "es"
@@ -79,10 +71,6 @@ weight = 3
 name = "Clientes"
 url = "#clientes"
 weight = 4
-[[languages.es.menu.main]]
-name = "Case studies"
-url = "#trabajos"
-weight = 5
 [languages.eus]
 languageName = "Euskera"
 languageNameShort = "eus"
