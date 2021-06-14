@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: config.toml
+  label: General Config
+  match: "**/*"
 - type: directory
   path: content/posts
   label: Trabajos - Case Studies
@@ -31,7 +35,7 @@ sections:
   match: "**/*"
 - type: directory
   path: content
-  label: Homepage - Datos globales
+  label: Homepage - Datos globales - Activar Case Study
   create: all
   match: "*"
 upload_dir: static/uploads
