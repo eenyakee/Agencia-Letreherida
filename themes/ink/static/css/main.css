@@ -175,16 +175,8 @@ h6 {
 
 /* General Styles */
 
-.scroll-container {
-    scroll-snap-type: y mandatory;
-}
-
 .content {
     padding: 0 5vw;
-}
-
-section {
-    scroll-snap-align: start;
 }
 
 .align-center {
