@@ -198,6 +198,9 @@ h6 {
     .d-none-small {
         display: small;
     }
+    .scroll-container {
+        overflow-x: hidden;
+    }
 }
 
 
@@ -1096,6 +1099,11 @@ section {
 
 
 /* MANIFIESTO */
+
+#manifiesto {
+    height: auto;
+    overflow-x: visible;
+}
 
 .manifiesto-text {
     width: 66vw;
