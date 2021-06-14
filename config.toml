@@ -1,174 +1,124 @@
-baseURL = "https://agencialetraherida.com/"
-languageCode = "en-us"
 DefaultContentLanguage = "es"
-title = "Letraherida"
-theme = "ink"
-paginate = 5
-
+baseURL = "https://agencialetraherida.com/"
 contacto = "hola@letraherida.com"
-
 copyright = "© Copyright notice"
-
-pygmentsstyle = "vs"
+disqusShortname = ""
+googleAnalytics = ""
+languageCode = "en-us"
+paginate = "10"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-
-googleAnalytics = ""
-disqusShortname = ""
-
+pygmentsstyle = "vs"
+theme = "eenyakee"
+title = "Letraherida"
+[languages.cat]
+languageName = "Català"
+languageNameShort = "cat"
+weight = 3
+[[languages.cat.menu.main]]
+name = "Servicios"
+url = "#servicios"
+weight = 1
+[[languages.cat.menu.main]]
+name = "Manifiesto"
+url = "#manifiesto"
+weight = 2
+[[languages.cat.menu.main]]
+name = "Somos"
+url = "#somos"
+weight = 3
+[[languages.cat.menu.main]]
+name = "Clientes"
+url = "#clientes"
+weight = 4
+[[languages.cat.menu.main]]
+name = "Case studies"
+url = "#trabajos"
+weight = 5
+[languages.en]
+languageName = "English"
+languageNameShort = "eng"
+weight = 2
+[[languages.en.menu.main]]
+name = "Servicios"
+url = "#servicios"
+weight = 1
+[[languages.en.menu.main]]
+name = "Manifiesto"
+url = "#manifiesto"
+weight = 2
+[[languages.en.menu.main]]
+name = "Somos"
+url = "#somos"
+weight = 3
+[[languages.en.menu.main]]
+name = "Clientes"
+url = "#clientes"
+weight = 4
+[[languages.en.menu.main]]
+name = "Case studies"
+url = "#trabajos"
+weight = 5
+[languages.es]
+languageName = "Español"
+languageNameShort = "es"
+weight = 1
+[[languages.es.menu.main]]
+name = "Servicios"
+url = "#servicios"
+weight = 1
+[[languages.es.menu.main]]
+name = "Manifiesto"
+url = "#manifiesto"
+weight = 2
+[[languages.es.menu.main]]
+name = "Somos"
+url = "#somos"
+weight = 3
+[[languages.es.menu.main]]
+name = "Clientes"
+url = "#clientes"
+weight = 4
+[[languages.es.menu.main]]
+name = "Case studies"
+url = "#trabajos"
+weight = 5
+[languages.eus]
+languageName = "Euskera"
+languageNameShort = "eus"
+weight = 4
+[[languages.eus.menu.main]]
+name = "Zerbitzuak"
+url = "#servicios"
+weight = 1
+[[languages.eus.menu.main]]
+name = "Manifestua"
+url = "#manifiesto"
+weight = 2
+[[languages.eus.menu.main]]
+name = "Nor gara"
+url = "#somos"
+weight = 3
+[[languages.eus.menu.main]]
+name = "Bezeroak"
+url = "#clientes"
+weight = 4
+[[languages.eus.menu.main]]
+name = "Case studies"
+url = "#trabajos"
+weight = 5
 [params]
-	subtitle = "Agencia de redacción. Everything is copy."
-
-
-	# Content types to disable Disqus on.
-	disableDisqusTypes = ["page"]
-	
-	featherIconsCDN = true
-
-	mode = "auto" # "dark" or "auto"
-	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
-	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
-	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
-
-# Nav.
-
-
+disableDisqusTypes = ["page"]
+featherIconsCDN = true
+mode = "auto"
+subtitle = "Agencia de redacción. Everything is copy."
 [[params.social]]
-name = "Github"
 icon = "github"
+name = "Github"
 url = "https://github.com/knadh/hugo-ink"
-
 [[params.social]]
-name = "RSS"
 icon = "rss"
+name = "RSS"
 url = "/index.xml"
-
 [taxonomies]
-   tag = "tags"
-
-
-# Idiomas 
-
-[languages]
-  [languages.es]
-  	languageName = "Español"
-    weight = 1
-	languageNameShort = "es"
-
-	[[languages.es.menu.main]]
-	name = "Servicios"
-	url = "#servicios"
-	weight = 1
-
-	[[languages.es.menu.main]]
-	name = "Manifiesto"
-	url = "#manifiesto"
-	weight = 2
-
-	[[languages.es.menu.main]]
-	name = "Somos"
-	url = "#somos"
-	weight = 3
-
-	[[languages.es.menu.main]]
-	name = "Clientes"
-	url = "#clientes"
-	weight = 4
-
-	[[languages.es.menu.main]]
-	name = "Case studies"
-	url = "#trabajos"
-	weight = 5
-
-  [languages.en]
-    languageName = "English"
-    weight = 2
-	languageNameShort = "eng"
-
-	[[languages.en.menu.main]]
-	name = "Servicios"
-	url = "#servicios"
-	weight = 1
-
-	[[languages.en.menu.main]]
-	name = "Manifiesto"
-	url = "#manifiesto"
-	weight = 2
-
-	[[languages.en.menu.main]]
-	name = "Somos"
-	url = "#somos"
-	weight = 3
-
-	[[languages.en.menu.main]]
-	name = "Clientes"
-	url = "#clientes"
-	weight = 4
-
-	[[languages.en.menu.main]]
-	name = "Case studies"
-	url = "#trabajos"
-	weight = 5
-
-   
-  [languages.cat]
-  	languageName = "Català"
-	languageNameShort = "cat"
-    weight = 3
-
-	[[languages.cat.menu.main]]
-	name = "Servicios"
-	url = "#servicios"
-	weight = 1
-
-	[[languages.cat.menu.main]]
-	name = "Manifiesto"
-	url = "#manifiesto"
-	weight = 2
-
-	[[languages.cat.menu.main]]
-	name = "Somos"
-	url = "#somos"
-	weight = 3
-
-	[[languages.cat.menu.main]]
-	name = "Clientes"
-	url = "#clientes"
-	weight = 4
-
-	[[languages.cat.menu.main]]
-	name = "Case studies"
-	url = "#trabajos"
-	weight = 5
-
-  [languages.eus]
-  	languageName = "Euskera"
-	languageNameShort = "eus"
-    weight = 4
-
-	[[languages.eus.menu.main]]
-	name = "Zerbitzuak"
-	url = "#servicios"
-	weight = 1
-
-	[[languages.eus.menu.main]]
-	name = "Manifestua"
-	url = "#manifiesto"
-	weight = 2
-
-	[[languages.eus.menu.main]]
-	name = "Nor gara"
-	url = "#somos"
-	weight = 3
-
-	[[languages.eus.menu.main]]
-	name = "Bezeroak"
-	url = "#clientes"
-	weight = 4
-
-	[[languages.eus.menu.main]]
-	name = "Case studies"
-	url = "#trabajos"
-	weight = 5
-
-	
+tag = "tags"
