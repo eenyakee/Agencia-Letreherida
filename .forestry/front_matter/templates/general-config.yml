@@ -2,81 +2,6 @@
 label: General Config
 hide_body: true
 fields:
-- type: text
-  name: baseURL
-  label: baseURL
-- type: text
-  name: languageCode
-  label: languageCode
-- type: text
-  name: DefaultContentLanguage
-  label: DefaultContentLanguage
-- type: text
-  name: title
-  label: title
-- type: text
-  name: theme
-  label: theme
-- type: number
-  name: paginate
-  label: paginate
-- type: text
-  name: contacto
-  label: contacto
-- type: text
-  name: copyright
-  label: copyright
-- type: text
-  name: pygmentsstyle
-  label: pygmentsstyle
-- type: boolean
-  name: pygmentscodefences
-  label: pygmentscodefences
-- type: boolean
-  name: pygmentscodefencesguesssyntax
-  label: pygmentscodefencesguesssyntax
-- type: text
-  name: googleAnalytics
-  label: googleAnalytics
-- type: text
-  name: disqusShortname
-  label: disqusShortname
-- type: field_group
-  name: params
-  label: params
-  fields:
-  - type: text
-    name: subtitle
-    label: subtitle
-  - type: list
-    name: disableDisqusTypes
-    label: disableDisqusTypes
-  - type: boolean
-    name: featherIconsCDN
-    label: featherIconsCDN
-  - type: text
-    name: mode
-    label: mode
-  - type: field_group_list
-    name: social
-    label: social
-    fields:
-    - type: text
-      name: name
-      label: name
-    - type: text
-      name: icon
-      label: icon
-    - type: text
-      name: url
-      label: url
-- type: field_group
-  name: taxonomies
-  label: taxonomies
-  fields:
-  - type: text
-    name: tag
-    label: tag
 - type: field_group
   name: languages
   label: languages
@@ -201,3 +126,78 @@ fields:
         - type: number
           name: weight
           label: weight
+- type: text
+  name: baseURL
+  label: baseURL
+- type: text
+  name: languageCode
+  label: languageCode
+- type: text
+  name: DefaultContentLanguage
+  label: DefaultContentLanguage
+- type: text
+  name: title
+  label: title
+- type: text
+  name: theme
+  label: theme
+- type: number
+  name: paginate
+  label: paginate
+- type: text
+  name: contacto
+  label: contacto
+- type: text
+  name: copyright
+  label: copyright
+- type: text
+  name: pygmentsstyle
+  label: pygmentsstyle
+- type: boolean
+  name: pygmentscodefences
+  label: pygmentscodefences
+- type: boolean
+  name: pygmentscodefencesguesssyntax
+  label: pygmentscodefencesguesssyntax
+- type: text
+  name: googleAnalytics
+  label: googleAnalytics
+- type: text
+  name: disqusShortname
+  label: disqusShortname
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: list
+    name: disableDisqusTypes
+    label: disableDisqusTypes
+  - type: boolean
+    name: featherIconsCDN
+    label: featherIconsCDN
+  - type: text
+    name: mode
+    label: mode
+  - type: field_group_list
+    name: social
+    label: social
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: url
+      label: url
+- type: field_group
+  name: taxonomies
+  label: taxonomies
+  fields:
+  - type: text
+    name: tag
+    label: tag
