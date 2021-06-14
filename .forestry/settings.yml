@@ -31,7 +31,7 @@ sections:
   match: "**/*"
 - type: directory
   path: content
-  label: Homepage - Datos globales - Activar Case Study
+  label: Datos portada - Activar Case Study
   create: all
   match: "*"
 - type: document
