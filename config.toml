@@ -33,25 +33,7 @@ disqusShortname = "ink-demo"
 	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
 
 # Nav.
-[[menu.main]]
-name = "Servicios"
-url = "#servicios"
-weight = 1
 
-[[menu.main]]
-name = "Manifiesto"
-url = "#manifiesto"
-weight = 2
-
-[[menu.main]]
-name = "Somos"
-url = "#somos"
-weight = 3
-
-[[menu.main]]
-name = "Clientes"
-url = "#clientes"
-weight = 4
 
 [[params.social]]
 name = "Github"
@@ -75,17 +57,95 @@ url = "/index.xml"
     weight = 1
 	languageNameShort = "es"
 
+	[[languages.es.menu.main]]
+	name = "Servicios"
+	url = "#servicios"
+	weight = 1
+
+	[[languages.es.menu.main]]
+	name = "Manifiesto"
+	url = "#manifiesto"
+	weight = 2
+
+	[[languages.es.menu.main]]
+	name = "Somos"
+	url = "#somos"
+	weight = 3
+
+	[[languages.es.menu.main]]
+	name = "Clientes"
+	url = "#clientes"
+	weight = 4
+
+	[[languages.es.menu.main]]
+	name = "Case studies"
+	url = "#trabajos"
+	weight = 5
+
   [languages.en]
     languageName = "English"
     weight = 2
 	languageNameShort = "eng"
+
+	[[languages.en.menu.main]]
+	name = "Servicios"
+	url = "#servicios"
+	weight = 1
+
+	[[languages.en.menu.main]]
+	name = "Manifiesto"
+	url = "#manifiesto"
+	weight = 2
+
+	[[languages.en.menu.main]]
+	name = "Somos"
+	url = "#somos"
+	weight = 3
+
+	[[languages.en.menu.main]]
+	name = "Clientes"
+	url = "#clientes"
+	weight = 4
+
+	[[languages.en.menu.main]]
+	name = "Case studies"
+	url = "#trabajos"
+	weight = 5
+
    
   [languages.cat]
   	languageName = "Català"
 	languageNameShort = "cat"
     weight = 3
 
+	[[languages.cat.menu.main]]
+	name = "Servicios"
+	url = "#servicios"
+	weight = 1
+
+	[[languages.cat.menu.main]]
+	name = "Manifiesto"
+	url = "#manifiesto"
+	weight = 2
+
+	[[languages.cat.menu.main]]
+	name = "Somos"
+	url = "#somos"
+	weight = 3
+
+	[[languages.cat.menu.main]]
+	name = "Clientes"
+	url = "#clientes"
+	weight = 4
+
+	[[languages.cat.menu.main]]
+	name = "Case studies"
+	url = "#trabajos"
+	weight = 5
+
   [languages.eus]
   	languageName = "Euskera"
 	languageNameShort = "eus"
     weight = 4
+
+	
