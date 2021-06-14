@@ -6,6 +6,6 @@ portadaAgencia: Agencia de redacción
 portadaContactoTlf: "666666666"
 portadaContactoTlf2: "666666666"
 contactoEmail: "666666666"
-seccionCaseStudy: true
+seccionCaseStudy: false
 
 ---
