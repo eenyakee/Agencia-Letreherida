@@ -91,10 +91,6 @@ weight = 3
 name = "Bezeroak"
 url = "#clientes"
 weight = 4
-[[languages.eus.menu.main]]
-name = "Case studies"
-url = "#trabajos"
-weight = 5
 [params]
 disableDisqusTypes = ["page"]
 featherIconsCDN = true
