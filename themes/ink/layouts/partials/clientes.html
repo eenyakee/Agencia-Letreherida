@@ -9,11 +9,11 @@
         </div>
     </div>
 
-    <div class="ascii ascii-home ascii-home-6">
+    <div class="ascii ascii-home ascii-home-6" data-aos="fade-right" data-aos-duration="1000">
         {{ partial "ascii-home/ascii-6.html" . }}
     </div>
 
-    <div class="clientes-wrapper content text-align-center">
+    <div class="clientes-wrapper content text-align-center" data-aos="fade-up" data-aos-duration="1000">
         {{ $section := "clientes" }} {{ range (where .Site.RegularPages.ByTitle "Section" $section ) }}
 
         <h2 class="sections-title">{{ .Title }}</h2>

@@ -148,4 +148,29 @@ url = "/index.xml"
 	languageNameShort = "eus"
     weight = 4
 
+	[[languages.eus.menu.main]]
+	name = "Zerbitzuak"
+	url = "#servicios"
+	weight = 1
+
+	[[languages.eus.menu.main]]
+	name = "Manifestua"
+	url = "#manifiesto"
+	weight = 2
+
+	[[languages.eus.menu.main]]
+	name = "Nor gara"
+	url = "#somos"
+	weight = 3
+
+	[[languages.eus.menu.main]]
+	name = "Bezeroak"
+	url = "#clientes"
+	weight = 4
+
+	[[languages.eus.menu.main]]
+	name = "Case studies"
+	url = "#trabajos"
+	weight = 5
+
 	

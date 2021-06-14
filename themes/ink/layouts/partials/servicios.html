@@ -1,9 +1,9 @@
 <section id="servicios">
 
-    <div class="line line-2">
+    <div class="line line-2" data-aos="fade-in" data-aos-duration="2000">
         {{ readFile "static/line-2.svg" | safeHTML }}
     </div>
-    <div class="ascii ascii-home ascii-home-0">
+    <div class="ascii ascii-home ascii-home-0" data-aos="fade-left" data-aos-duration="1000">
         {{ partial "ascii-home/ascii-0.html" . }}
     </div>
     <div class="servicios-wrap">
@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        <div class=" servicios-wrapper content">
+        <div class=" servicios-wrapper content" data-aos="fade-up" data-aos-duration="2000">
 
             <h2 class="section-title"> Servicios <span class="flechas d-none">⟵ &nbsp;&nbsp; ⟶  </span></h2>
             <!-- Slider main container -->
@@ -92,11 +92,11 @@
 
     </div>
 
-    <div class="ascii ascii-home ascii-home-2">
+    <div class="ascii ascii-home ascii-home-2" data-aos="fade-right" data-aos-duration="1500">
         {{ partial "ascii-home/ascii-2.html" . }}
     </div>
 
-    <div class="line line-3">
+    <div class="line line-3" data-aos="fade-right" data-aos-duration="1000">
         {{ readFile "static/line-3.svg" | safeHTML }}
     </div>
 

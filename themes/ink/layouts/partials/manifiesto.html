@@ -6,7 +6,7 @@
 
 
     {{ $section := "manifiesto" }} {{ range (where .Site.RegularPages.ByTitle "Section" $section ) }}
-    <div class="manifiesto-wrap content">
+    <div class="manifiesto-wrap content" data-aos="fade-up" data-aos-duration="1000">
         <h2 class="section-title">Mananifiesto</h2>
         <div class="blob-wrapper">
             <div class="blob-width">
@@ -20,7 +20,7 @@
         <div class="manifiesto-text">
             {{ .Content }}
         </div>
-        <div class="line line-5">
+        <div class="line line-5" data-aos="fade-left" data-aos-duration="2000">
             {{ readFile "static/line-5.svg" | safeHTML }}
         </div>
 
@@ -28,11 +28,11 @@
 
     {{ end }}
 
-    <div class="ascii ascii-home ascii-home-5">
+    <div class="ascii ascii-home ascii-home-5" data-aos="fade-left" data-aos-duration="2000">
         {{ partial "ascii-home/ascii-5.html" . }}
     </div>
 
-    <div class="line line-6">
+    <div class="line line-6" data-aos="fade-up" data-aos-duration="1000">
         {{ readFile "static/line-6.svg" | safeHTML }}
 
     </div>

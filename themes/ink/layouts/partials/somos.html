@@ -13,10 +13,10 @@
         {{ $section := "somos" }} {{ range (where .Site.RegularPages.ByTitle "Section" $section ) }}
         <h2 class="section-title"> {{ .Title }}</h2>
 
-        <div class="ascii ascii-home ascii-home-3">
+        <div class="ascii ascii-home ascii-home-3" data-aos="fade-right" data-aos-duration="2000">
             {{ partial "ascii-home/ascii-3.html" . }}
         </div>
-        <div class="somos-texto">
+        <div class="somos-texto" data-aos="fade-up" data-aos-duration="1000">
 
             {{ .Content }}
 
@@ -24,10 +24,10 @@
 
     </div>
     {{ end }}
-    <div class="ascii ascii-home ascii-home-1">
+    <div class="ascii ascii-home ascii-home-1" data-aos="fade-left" data-aos-duration="2000">
         {{ partial "ascii-home/ascii-1.html" . }}
     </div>
-    <div class="line line-7">
+    <div class="line line-7" data-aos="fade-up" data-aos-duration="1000">
         {{ readFile "static/line-7.svg" | safeHTML }}
     </div>
 
