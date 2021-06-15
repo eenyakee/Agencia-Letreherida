@@ -1,9 +1,6 @@
 ---
+Title: Servicios 3
+weight: "3"
 
-Title: "Servicios 3"
-weight: 3
 ---
-Redactamos proyectos, 
-campañas, empresas, 
-organizaciones, ideas 
-y conceptos.
+Redactem projectes, campanyes, empreses, organitzacions idees i conceptes. 
