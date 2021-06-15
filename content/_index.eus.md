@@ -2,10 +2,10 @@
 portadaClaim1: Everything
 portadaClaim2: is
 portadaClaim3: copy
-portadaAgencia: Agencia de redacción
-portadaContactoTlf: "666666666"
-portadaContactoTlf2: "666666666"
-contactoEmail: "666666666"
+portadaAgencia: Erredakzio eta copywriting agentzia
+portadaContactoTlf: ane@agencialetraherida.com
+portadaContactoTlf2: ''
+contactoEmail: patricia@agencialetraherida.com
 seccionCaseStudy: false
 
 ---
