@@ -1158,6 +1158,10 @@ section {
 
 /* Clientlient */
 
+#clientes {
+    overflow-x: visible;
+}
+
 .clientes-list {
     text-align: center;
     display: flex;
