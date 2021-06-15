@@ -16,7 +16,7 @@ languageName = "Català"
 languageNameShort = "cat"
 weight = 3
 [[languages.cat.menu.main]]
-name = "Serveis"
+name = "Serveïs"
 url = "#servicios"
 weight = 1
 [[languages.cat.menu.main]]
@@ -84,7 +84,7 @@ name = "Manifestua"
 url = "#manifiesto"
 weight = 2
 [[languages.eus.menu.main]]
-name = "Nor gara"
+name = "Guri Buruz"
 url = "#somos"
 weight = 3
 [[languages.eus.menu.main]]
