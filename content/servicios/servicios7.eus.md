@@ -1,7 +1,6 @@
 ---
+Title: Servicios 7
+weight: "6"
 
-Title: "Servicios 7"
-weight: 6
 ---
-Gidoiak para\
-audiovisual.
+Ikusentzuneko gidoiak.
