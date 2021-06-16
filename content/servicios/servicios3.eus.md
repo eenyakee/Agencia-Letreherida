@@ -1,9 +1,6 @@
 ---
+Title: Servicios 3
+weight: "3"
 
-Title: "Servicios 3"
-weight: 3
 ---
-Redactamos proyectos, 
-campañas, empresas, 
-organizaciones, ideas 
-y conceptos.
+Kontzeptuak, ideiak, komunikazioa, enpresa idatziak eta edukia eskeintzen dugu.
