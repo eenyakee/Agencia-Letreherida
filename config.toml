@@ -11,6 +11,7 @@ pygmentscodefencesguesssyntax = true
 pygmentsstyle = "vs"
 theme = "eenyakee"
 title = "Letraherida"
+disableKinds = ["section"]
 
 
 [languages.cat]
