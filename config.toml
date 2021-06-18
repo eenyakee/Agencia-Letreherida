@@ -11,14 +11,18 @@ pygmentscodefencesguesssyntax = true
 pygmentsstyle = "vs"
 theme = "eenyakee"
 title = "Letraherida"
+
+
 [languages.cat]
 languageName = "Català"
 languageNameShort = "cat"
 weight = 3
+description = "Agència de redacció i copywriting: off i online. RRSS. Publicitat. Text corporatiu. Narrativa d'empresa. Guions audiovisual. Pàgines web."
 [[languages.cat.menu.main]]
 name = "Serveïs"
 url = "#servicios"
 weight = 1
+
 [[languages.cat.menu.main]]
 name = "Manifest"
 url = "#manifiesto"
@@ -35,6 +39,7 @@ weight = 4
 languageName = "English"
 languageNameShort = "eng"
 weight = 2
+description= "Copywriting agency: off and online. RRSS. Advertising. Corporate text. Company storytelling. Scripts. Web pages."
 [[languages.en.menu.main]]
 name = "Services"
 url = "#servicios"
@@ -55,6 +60,7 @@ weight = 4
 languageName = "Español"
 languageNameShort = "es"
 weight = 1
+description= "Agencia de redacción y copywriting: off y online. RRSS. Publicidad. Texto corporativo. Narrativa de empresa. Guiones audiovisual. Páginas web."
 [[languages.es.menu.main]]
 name = "Servicios"
 url = "#servicios"
@@ -75,6 +81,7 @@ weight = 4
 languageName = "Euskera"
 languageNameShort = "eus"
 weight = 4
+description= "Erredakzio eta copywriting agentzia: off eta online. Sare sozialak. Publizitatea. Empresa testuak eta narratiba. Ikusentzuneko gidoiak. Web orriak."
 [[languages.eus.menu.main]]
 name = "Zerbitzuak"
 url = "#servicios"
