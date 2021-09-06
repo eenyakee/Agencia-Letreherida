@@ -191,7 +191,7 @@ h6 {
 }
 
 .d-none {
-    display: none;
+    display: none !important;
 }
 
 @media (max-width: 768px) {
