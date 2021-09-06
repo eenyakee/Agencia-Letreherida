@@ -206,11 +206,6 @@ h6 {
 
 /* Blobs */
 
-section {
-    overflow-y: visible;
-    overflow-x: hidden;
-}
-
 .blob-wrapper {
     display: flex;
     width: 100%;
