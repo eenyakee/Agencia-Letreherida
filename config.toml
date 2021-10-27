@@ -2,6 +2,7 @@ DefaultContentLanguage = "es"
 baseURL = "https://agencialetraherida.com/"
 contacto = "hola@letraherida.com"
 copyright = "© Copyright notice"
+disableKinds = ["section"]
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
@@ -11,19 +12,15 @@ pygmentscodefencesguesssyntax = true
 pygmentsstyle = "vs"
 theme = "eenyakee"
 title = "Letraherida"
-disableKinds = ["section"]
-
-
 [languages.cat]
+description = "Agència de redacció i copywriting: off i online. RRSS. Publicitat. Text corporatiu. Narrativa d'empresa. Guions audiovisual. Pàgines web."
 languageName = "Català"
 languageNameShort = "cat"
 weight = 3
-description = "Agència de redacció i copywriting: off i online. RRSS. Publicitat. Text corporatiu. Narrativa d'empresa. Guions audiovisual. Pàgines web."
 [[languages.cat.menu.main]]
-name = "Serveïs"
+name = "Serveis"
 url = "#servicios"
 weight = 1
-
 [[languages.cat.menu.main]]
 name = "Manifest"
 url = "#manifiesto"
@@ -37,10 +34,10 @@ name = "Clients"
 url = "#clientes"
 weight = 4
 [languages.en]
+description = "Copywriting agency: off and online. RRSS. Advertising. Corporate text. Company storytelling. Scripts. Web pages."
 languageName = "English"
 languageNameShort = "eng"
 weight = 2
-description= "Copywriting agency: off and online. RRSS. Advertising. Corporate text. Company storytelling. Scripts. Web pages."
 [[languages.en.menu.main]]
 name = "Services"
 url = "#servicios"
@@ -58,10 +55,10 @@ name = "Clients"
 url = "#clientes"
 weight = 4
 [languages.es]
+description = "Agencia de redacción y copywriting: off y online. RRSS. Publicidad. Texto corporativo. Narrativa de empresa. Guiones audiovisual. Páginas web."
 languageName = "Español"
 languageNameShort = "es"
 weight = 1
-description= "Agencia de redacción y copywriting: off y online. RRSS. Publicidad. Texto corporativo. Narrativa de empresa. Guiones audiovisual. Páginas web."
 [[languages.es.menu.main]]
 name = "Servicios"
 url = "#servicios"
@@ -79,10 +76,10 @@ name = "Clientes"
 url = "#clientes"
 weight = 4
 [languages.eus]
+description = "Erredakzio eta copywriting agentzia: off eta online. Sare sozialak. Publizitatea. Empresa testuak eta narratiba. Ikusentzuneko gidoiak. Web orriak."
 languageName = "Euskera"
 languageNameShort = "eus"
 weight = 4
-description= "Erredakzio eta copywriting agentzia: off eta online. Sare sozialak. Publizitatea. Empresa testuak eta narratiba. Ikusentzuneko gidoiak. Web orriak."
 [[languages.eus.menu.main]]
 name = "Zerbitzuak"
 url = "#servicios"
