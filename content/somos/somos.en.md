@@ -4,7 +4,7 @@ title: We are
 ---
 Patricia Escalona
 
-With experience in the publishing world of more than 20 years, I began to interact with letters professionally in different publishing houses. After a period in New York working at The New Press, I came back to Barcelona and continued working with books, and I edit books, as a freelance, to this day. I also write copy in different languages, books, articles and everything you can imagine. I am sort of an all-you-can-write-buffet woman.
+With an experience in the publishing world of more than 20 years, I began to interact with words professionally in different publishing houses. After a period in New York working at The New Press, I came back to Barcelona and continued working with the written word, and I edit books, as a freelance, to this day. I also write copy in different languages, books, articles and everything you can imagine. I am sort of an all-you-can-write-buffet woman.
 
 Ane Guerra
 
