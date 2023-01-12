@@ -8,4 +8,4 @@ No totes les maneres de dir són iguals.
 
 Nosaltres adaptem la nostra veu a la teva, perquè expliquis el que necessitis com a tu et vingui de gust. L'objectiu, al cap i a la fi, és que puguis comunicar-te; nosaltres t'ho facilitem creant connexions duradores amb la teva audiència. I si no tens clar com explicar alguna cosa, t'ajudem. Tenim estils diferents que es complementen; així, busquem discursos nous, innovadors, creatius, seriosos, corporatius i divertits. T'oferim la possibilitat de conèixer punts de vista que poden ajudar-te a decidir el teu estil de comunicació. A més, podem fer-ho en quatre idiomes.
 
-Només oferim text. I el text és la clau..
+Només oferim text. I el text és la clau.
