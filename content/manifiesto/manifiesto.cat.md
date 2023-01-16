@@ -2,10 +2,10 @@
 title: Manifest
 
 ---
-Estem fetes d'històries; hi ha res més humà que tractar de trobar un sentit a allò que ens envolta? Passem els nostres dies escoltant diferents fonts d'informació, veient vídeos, llegint online, consumint posts i publicitat i esperant continguts que ens moguin. Vivim embolicades en paraules, en textos i en guions que, junts, creen el relat de la nostra societat avui en dia. Què diem i com ho diem és tan vital com la imatge i la utilitat d'aquest contingut. A Letraherida som artesanes que treballen amb paraules. Valorem la llengua; és el vehicle per entendre'ns, per crear converses i actuar. Les paraules són tremendament importants si es fan servir bé.
+**Manifest**
 
-No totes les maneres de dir són iguals.
+Estem fetes d'històries. Potser hi ha una cosa més humana que tractar de trobar sentit a allò que ens envolta? Passem els nostres dies escoltant diferents fonts d'informació, veient vídeos, llegint en línia, consumint posts i publicitat i somiant amb la pròxima exposició que ens provoqui emoció. Les històries, la paraula, comunicar-nos, tenen tanta transcendència que hem estat capaces de crear intel·ligències artificials que imiten els estils de les grans personalitats de l'escriptura. Però.
 
-Nosaltres adaptem la nostra veu a la teva, perquè expliquis el que necessitis com a tu et vingui de gust. L'objectiu, al cap i a la fi, és que puguis comunicar-te; nosaltres t'ho facilitem creant connexions duradores amb la teva audiència. I si no tens clar com explicar alguna cosa, t'ajudem. Tenim estils diferents que es complementen; així, busquem discursos nous, innovadors, creatius, seriosos, corporatius i divertits. T'oferim la possibilitat de conèixer punts de vista que poden ajudar-te a decidir el teu estil de comunicació. A més, podem fer-ho en quatre idiomes.
+El que diem i com ho diem és l'estructura sobre la qual creem la societat en què vivim. Per això és important que tothom se senti reflectit. Que uns no siguin més rellevants que totes les altres. Que la ignorància, la desídia o la mandra no ens facin desentendre de qui tenim al voltant. A Letraherida adaptem la nostra veu a la teva, o t'ajudem a trobar-la, perquè expliquis el que necessitis com a tu et vingui de gust. A Letraherida cuidem que el teu missatge no exclogui a ningú, perquè la nostra **comunicació és feminista, respectuosa i inclusiva**.
 
-Només oferim text. I el text és la clau.
+Les teves paraules i com les empres són el reflex de qui ets. **Nosaltres t'ajudem a contar-te.**
