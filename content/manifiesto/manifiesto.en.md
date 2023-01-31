@@ -2,10 +2,8 @@
 title: Manifest
 
 ---
-We are made of stories; is there anything more human than trying to find meaning in what is around us? We spend our days listening to different sources of information, watching videos, reading online, scrolling down posts and ads, and dreaming of being exposed to something that might move us. Our lives revolve around words, texts and scripts, and by putting them together, we create the story of our society. What we say and how we say it is vital and the image and usefulness of that content. At Letraherida, we are craftswomen who work with words. We value language as the vehicle to understand each other, engage in conversation, and act. Words are terribly powerful when used well.
+**We are made of stories**. Is there anything more human than trying to make sense of what surrounds us? We spend our days listening to different sources of information, watching videos, reading online, scrolling down and dreaming of the next exhibition that will move us. Stories, words, and communication are so crucial that we have been able to create artificial intelligence that mimics the styles of great writing personalities. But.
 
-You can say something in many different ways. Words can be uttered in distinct forms. Just sayin’.
+What we say and how we choose to say it is the structure on which we create the society we live in. That is why it is essential that everyone feels reflected. That some don’t seem to be more important than all the rest. That ignorance, idleness or laziness do not make us disregard those around us. At Letraherida, we adapt our voice to yours or help you find it so that you can say what you need to say the way you wish to say it. At **Letraherida**, we make sure that your message does not exclude anyone because **our communication is feminist, respectful and inclusive.**
 
-We adapt our voice to yours, so you can tell what you need the way you want. The goal, in the end, is to help you communicate; we make it easy for you by creating lasting connections with your audience. And if you are not sure how you want to say something, we can also help you. We have styles that complement each other and endless possibilities: new, innovative, creative, serious, corporate, and fun—different perspectives to help you decide your communication style. Also, we can do it in four languages.
-
-We only offer text. And text is decisive.
+Your words and how you use them reflect who you are. **We help you to tell your story.**
