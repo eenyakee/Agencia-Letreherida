@@ -24,7 +24,8 @@
         <div class=" servicios-wrapper content" data-aos="fade-up" data-aos-duration="2000">
             {{ $section := "servicios" }}
             {{ $servicios := where .Site.RegularPages.ByWeight "Section" $section }}
-            {{ if gt (len $servicios) 0 }}
+            {{ range $servicios }}
+            {{ if ne .Params.servicios "" }}
             <h2 class="section-title"> {{ .Params.servicios }} <span class="flechas d-none">⟵ &nbsp;&nbsp; ⟶  </span></h2>
             <!-- Slider main container -->
             <div class="swiper-container">
@@ -32,7 +33,6 @@
                 <div class="swiper-wrapper">
                     <!-- Slides -->
                     {{ $.Scratch.Set "counter" 0 }} 
-                    {{ range $servicios }}
                     <div class="swiper-slide servicios">
                         {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }} 
                         {{ $numero := string ($.Scratch.Get "counter") }} 
@@ -45,7 +45,6 @@
                             {{ partial $widget . }}
                         </div>
                     </div>
-                    {{ end }}
                 </div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
@@ -81,6 +80,7 @@
                 }
             </script>
             {{ end }}
+            {{ end }}
         </div>
 
     </div>
@@ -93,3 +93,4 @@
         {{ readFile "static/line-3.svg" | safeHTML }}
     </div>
 </section>
+
