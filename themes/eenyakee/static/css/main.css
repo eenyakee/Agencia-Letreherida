@@ -821,6 +821,10 @@ h6 {
     #servicios {
         min-height: 145vw;
     }
+    .texto-slide {
+       
+        max-width: 700px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -833,6 +837,10 @@ h6 {
     .swiper-container .swiper-button-next::after,
     .swiper-container .swiper-button-prev::after {
         font-size: 21px;
+    }
+    .texto-slide {
+       
+        max-width: 600px;
     }
 }
 
