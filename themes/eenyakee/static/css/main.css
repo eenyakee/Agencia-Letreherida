@@ -868,6 +868,7 @@ h6 {
     .ascii-slide {
         bottom: 0;
         top: unset;
+        display: none;
     }
     .ascii-slide pre {
         font-size: 9px;
