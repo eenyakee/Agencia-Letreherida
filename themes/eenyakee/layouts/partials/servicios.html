@@ -22,22 +22,20 @@
         </div>
 
         <div class=" servicios-wrapper content" data-aos="fade-up" data-aos-duration="2000">
-            {{ $section := "servicios" }}
-            {{ $servicios := where .Site.RegularPages.ByWeight "Section" $section }}
-            {{ range $servicios }}
-            {{ if ne .Params.servicios "" }}
+
             <h2 class="section-title"> {{ .Params.servicios }} <span class="flechas d-none">⟵ &nbsp;&nbsp; ⟶  </span></h2>
             <!-- Slider main container -->
             <div class="swiper-container">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    {{ $.Scratch.Set "counter" 0 }} 
+
+                    {{ $section := "servicios" }}
+
+                    <!-- Slides -->
+                    {{ $.Scratch.Set "counter" 0 }} {{ range (where .Site.RegularPages.ByWeight "Section" $section ) }}
                     <div class="swiper-slide servicios">
-                        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }} 
-                        {{ $numero := string ($.Scratch.Get "counter") }} 
-                        {{ $widget := (printf "%s%s" "ascii-servicios/ascii-" $numero ) }} 
-                        {{ $partialurl := (printf $widget ".html" ) }}
+                        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }} {{ $numero := string ($.Scratch.Get "counter") }} {{ $widget := (printf "%s%s" "ascii-servicios/ascii-" $numero ) }} {{ $partialurl := (printf $widget ".html" ) }}
                         <div class=" texto-slide texto-slide-{{ $numero }}">
                             {{ .Content }}
                         </div>
@@ -45,9 +43,13 @@
                             {{ partial $widget . }}
                         </div>
                     </div>
+                    {{ end }}
+
+
                 </div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
+
             </div>
 
             <script>
@@ -57,6 +59,7 @@
                     fadeEffect: {
                         crossFade: true
                     },
+
                     autoplay: {
                         delay: 4000,
                     },
@@ -79,8 +82,7 @@
                     }
                 }
             </script>
-            {{ end }}
-            {{ end }}
+
         </div>
 
     </div>
@@ -92,5 +94,8 @@
     <div class="line line-3" data-aos="fade-right" data-aos-duration="1000">
         {{ readFile "static/line-3.svg" | safeHTML }}
     </div>
+
+
+
 </section>
 
