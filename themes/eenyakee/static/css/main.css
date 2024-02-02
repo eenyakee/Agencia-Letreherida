@@ -775,7 +775,7 @@ h6 {
 
 .texto-slide {
     margin: auto 0;
-    max-width: 600px;
+    max-width: 750px;
 }
 
 /*.texto-slide-1,
@@ -795,7 +795,8 @@ h6 {
 
 .ascii-slide {
     position: absolute;
-    right: 0
+    right: 0;
+    scale: 0.8;
 }
 
 .ascii-slide-1 {
