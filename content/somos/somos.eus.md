@@ -4,9 +4,9 @@ title: Guri buruz
 ---
 **Patricia Escalona**
 
-Argitaletxe munduan 20 urte baino gehiagoko esperientzia sorbaldan izanda, Ediciones B-n eman nituen nire lehen hitzen inguruko pauso profesionalak eta _Suma_ eta _Letras-Punto de lectura_ proiektuen abiaraztean parte hartu nuen. New York-en, _The New Press_ argitaletxean lan egin ondoren, Bartzelonara itzuli eta liburuekin jarraitu nuen orain arte. Gaur egun freelance moduan argitaratzen jarraitzen dut (amaierarik gabeko istorioa da hau), iragarkietarako eta sare sozialetarako copy-ak egiten ditut, liburuak, artikuluak eta uzten didaten guztia idazten dut, eta ipuinak josten ditut nire buruan, Ariadnaren moduan.
+Ingeles Filologian lizentziatu eta irakastea nire arloa ez zela egiaztatu ondoren, liburugintzan aurkitu nuen bidea. 20 urte eta hainbat argitaletxe – hala nola, Ediciones B, Suma de Letras-Punto de lectura, The New Press edo Roca Editorial – geroago, orrialdea pasatzeko, kapitulu berri bat hasteko eta orri zuriari aurre egiteko unea iritsi zen: nire ibilbideari bira bat eman nion Ane ondoan nuela copywriting-ari ekiteko. Eta kontrakoa badirudi ere, zin dagit leku komunek ez dutela tokirik nire testu profesionaletan.
 
   
 **Ane Guerra**
 
-Kazetaria, idazlea, gidoilaria, storyteller eta esataria. 10 urte badaramatzat istorioak kontatzen (profesionalki, etxean jada zoro bihurtuta nituen lehenagotik), Nazio Batuak edo TED bezalako bezeroentzat lan egiten, irratian kontuak kontatzen, aldizkariak sortzen, eta gidoiak, erakusketak eta mota desberdinetako edukia idazten. Ez dago munduan ezer Terry Pratchett irakurtzen dudan bitartean gosaltzea baino gehiago gustatzen zaidanik.
+Kazetaria, gidoilaria, Elisavako Storytelling eta Erredakzioko irakaslea eta Women at Work by Hey podcastaren gidaria. 10 urte baino gehiago daramatzat istorioak kontatzen eta nazioko eta nazioarteko bezeroentzat lanean, irratia egiten, aldizkariak sortzen eta idazten. Ez dago ezer irakurriz gosaltzea baino gustukoago dudanik.
