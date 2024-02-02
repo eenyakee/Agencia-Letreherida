@@ -839,8 +839,10 @@ h6 {
         font-size: 21px;
     }
     .texto-slide {
-       
         max-width: 600px;
+    }
+    .ascii-slide {
+        display: none;
     }
 }
 
