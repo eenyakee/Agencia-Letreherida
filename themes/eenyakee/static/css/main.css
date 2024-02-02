@@ -854,16 +854,17 @@ h6 {
         align-self: flex-start;
     }
     .texto-slide p {
-        margin: 0;
+        
         align-self: flex-start;
     }
+    /*
     .texto-slide-1,
     .texto-slide-2,
     .texto-slide-4,
     .texto-slide-5,
     .texto-slide-7 {
         font-size: 17vw;
-    }
+    }*/
     .ascii-slide {
         bottom: 0;
         top: unset;
