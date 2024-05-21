@@ -533,9 +533,9 @@ h6 {
 
 #forbes-logo-container {
     position: absolute;
-    width: 25vw;
+    width: 15vw;
     max-width: 220px;
-    margin-top: 1vw;
+    margin-top: 5vw;
     transform: rotate(-10deg);
     cursor: url(cursor-2.png), auto;
 }
@@ -550,15 +550,28 @@ h6 {
   
   @keyframes verticalOscillation {
     0% {
-      transform: translateY(0);
+      transform: translateY(0) rotate(-10deg);
     }
     50% {
-      transform: translateY(-25px);
+      transform: translateY(-25px) rotate(-10deg);
     }
     100% {
-      transform: translateY(0);
+      transform: translateY(0) rotate(-10deg);
     }
   }
+
+  @media (max-width: 780px) {
+    #forbes-logo-container {
+        position: absolute;
+        width: 22vw;
+        max-width: 220px;
+        margin-top: 30vh;
+        transform: rotate(-10deg);
+        cursor: url(cursor-2.png), auto;
+    }
+
+  }
+
   
 /* Header */
 
