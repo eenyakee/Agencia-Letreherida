@@ -541,9 +541,25 @@ h6 {
 }
 
 #forbes-logo {
-    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    filter: drop-shadow(-4px 8px 7px rgba(37, 0, 140, 0.21));
 }
 
+#forbes-logo-container {
+    animation: verticalOscillation 3s ease infinite;
+  }
+  
+  @keyframes verticalOscillation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-25px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
 /* Header */
 
 .header {
