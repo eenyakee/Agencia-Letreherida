@@ -529,6 +529,14 @@ h6 {
 
 /****  CONTENT *****/
 
+/**** Forbes blob ****/
+
+#forbes-logo-container {
+    position: absolute;
+    width: 25w;
+    max-width: 250px;
+}
+
 
 /* Header */
 
