@@ -542,6 +542,7 @@ h6 {
 
 #forbes-logo {
     filter: drop-shadow(-4px 8px 7px rgba(37, 0, 140, 0.21));
+    cursor: url(cursor-2.png), auto;
 }
 
 #forbes-logo-container {
