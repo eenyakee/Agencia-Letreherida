@@ -537,9 +537,12 @@ h6 {
     max-width: 220px;
     margin-top: 1vw;
     transform: rotate(-10deg);
-    cursor: url(cursor-1.png), auto;
+    cursor: url(cursor-2.png), auto;
 }
 
+#forbes-logo {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
 
 /* Header */
 
