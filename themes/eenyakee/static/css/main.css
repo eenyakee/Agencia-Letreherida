@@ -545,6 +545,10 @@ h6 {
     cursor: url(cursor-2.png), auto;
 }
 
+#forbes-logo * {
+    cursor: url(cursor-2.png), auto;
+}
+
 #forbes-logo-container {
     animation: verticalOscillation 3s ease infinite;
   }
