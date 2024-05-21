@@ -571,6 +571,17 @@ h6 {
     }
 
   }
+  @media (max-width: 450px) {
+    #forbes-logo-container {
+        position: absolute;
+        width: 28vw;
+        max-width: 220px;
+        margin-top: 30vh;
+        transform: rotate(-10deg);
+        cursor: url(cursor-2.png), auto;
+    }
+
+  }
 
   
 /* Header */
