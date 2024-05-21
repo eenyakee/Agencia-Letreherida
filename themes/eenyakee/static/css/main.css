@@ -533,8 +533,11 @@ h6 {
 
 #forbes-logo-container {
     position: absolute;
-    width: 25w;
-    max-width: 250px;
+    width: 25vw;
+    max-width: 220px;
+    margin-top: 1vw;
+    transform: rotate(-10deg);
+    cursor: url(cursor-1.png), auto;
 }
 
 
