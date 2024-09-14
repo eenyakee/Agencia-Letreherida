@@ -784,6 +784,20 @@ h6 {
     }
 }
 
+/* Fotos */
+
+.foto-con-marco {
+	height: 50vw;
+	max-height: 500px;
+}
+.foto-container {
+	position: absolute;
+	height: 0px;
+	display: flex;
+	top: 0;
+	width: 100%;
+}
+
 
 /* Servicios slides */
 
