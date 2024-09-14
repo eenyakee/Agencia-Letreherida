@@ -788,13 +788,13 @@ h6 {
 
 .foto-con-marco {
 	height: 50vw;
-	max-height: 500px;
+	max-height: 450px;
 }
 .foto-container {
 	position: absolute;
 	height: 0px;
 	display: flex;
-	top: 0;
+	top: 5vw;
 	width: 100%;
 }
 
