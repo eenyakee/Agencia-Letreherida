@@ -813,6 +813,7 @@ h6 {
 
 .servicios-wrap {
     padding: 40vw 0 50px 0;
+    position:relative;
 }
 
 #servicios .section-title {
