@@ -794,7 +794,7 @@ h6 {
 	position: absolute;
 	height: 0px;
 	display: flex;
-	top: 5vw;
+	top: -10vw;
 	width: 100%;
 }
 
@@ -1210,7 +1210,7 @@ h6 {
 /* Somos */
 #somos {
     position: relative;
-  padding-top: 50vw;
+  padding-top: 30vw;
 
 }
 
