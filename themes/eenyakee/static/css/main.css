@@ -1208,6 +1208,11 @@ h6 {
 
 
 /* Somos */
+#somos {
+    position: relative;
+  padding-top: 50vw;
+
+}
 
 .somos-wrapper {
     display: flex;
