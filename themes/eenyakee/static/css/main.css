@@ -1212,6 +1212,7 @@ h6 {
 .somos-wrapper {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 }
 
 #somos .section-title {
